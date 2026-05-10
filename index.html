@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ESPE TECH 104</title>
+    <title>ESPE TECH 104 | Innovación y Seguridad</title>
+    <!-- Vinculamos nuestro archivo CSS puro -->
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Cumpliendo la regla de máximo 2 fuentes tipográficas -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar Semántica -->
-    <header>
-        <nav>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <nav class="nav-container">
             <div class="logo">ESPE TECH 104</div>
-            <ul>
+            <ul class="nav-links">
+                <li><a href="#informacion">El Evento</a></li>
                 <li><a href="#zonas">Zonas Tecnológicas</a></li>
                 <li><a href="#agenda">Agenda</a></li>
                 <li><a href="#registro" class="btn-registro">Regístrate</a></li>
@@ -19,18 +24,157 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
+    <!-- ================= MAIN CONTENT ================= -->
     <main>
-        <section id="hero">
-            <h1>ESPE TECH 104</h1>
-            <!-- Slogan oficial del evento -->
-            <h2>Innovación tecnológica al servicio de la seguridad y defensa del país</h2>
-            <p>Únete al espacio estratégico de difusión tecnológica, innovación aplicada y networking institucional.</p>
-            <a href="#registro" class="cta-principal">Asegura tu lugar</a>
+
+        <!-- 1. HERO SECTION -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>ESPE TECH 104</h1>
+                <h2>Innovación tecnológica al servicio de la seguridad y defensa del país</h2>
+                <p>El espacio estratégico para la transferencia de tecnología, innovación aplicada y networking institucional.</p>
+                <a href="#registro" class="btn-cta">Asegura tu lugar</a>
+            </div>
         </section>
-        
-        <!-- Aquí Persona 2 y 3 añadirán sus secciones posteriormente -->
-        
+
+        <!-- 2. INFORMACIÓN Y ACTIVIDADES PRINCIPALES -->
+        <!-- (Persona 2 puede diseñar esto usando CSS Grid o Cards) -->
+        <section id="informacion" class="seccion-general">
+            <h2>Sobre el Evento</h2>
+            <p>Feria tecnológica orientada a fortalecer la articulación entre la academia, las Fuerzas Armadas, el sector empresarial y la sociedad.</p>
+            
+            <div class="actividades-grid">
+                <article class="actividad-card">
+                    <h3>Feria Tecnológica</h3>
+                    <p>Exposición de proyectos, prototipos e innovaciones.</p>
+                </article>
+                <article class="actividad-card">
+                    <h3>Foro Estratégico</h3>
+                    <p>Diálogo sobre innovación y cooperación estratégica.</p>
+                </article>
+                <article class="actividad-card">
+                    <h3>Networking</h3>
+                    <p>Espacios diseñados para la generación de contactos y reuniones empresariales.</p>
+                </article>
+                <article class="actividad-card">
+                    <h3>Concurso de Drones</h3>
+                    <p>Competencia orientada a sistemas autónomos y robótica.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- 3. ZONAS TECNOLÓGICAS -->
+        <!-- (Persona 2: Aplicar interactividad visual, hover effects y transiciones CSS en estas cards) -->
+        <section id="zonas" class="seccion-general fondo-alterno">
+            <h2>Zonas Tecnológicas</h2>
+            <div class="zonas-grid">
+                <article class="zona-card">
+                    <h3>Zona 1: Industrial y Energía</h3>
+                    <p>Automatización, Energías renovables, Industria 4.0, Sistemas eléctricos.</p>
+                </article>
+                <article class="zona-card">
+                    <h3>Zona 2: Telecomunicaciones</h3>
+                    <p>Redes, Inteligencia Artificial, IoT, Sistemas inteligentes, Software.</p>
+                </article>
+                <article class="zona-card">
+                    <h3>Zona 3: Defensa y Seguridad</h3>
+                    <p>Tecnologías militares, Ciberseguridad, Simulación, Drones.</p>
+                </article>
+                <article class="zona-card">
+                    <h3>Zona 4: Innovación y Emprendimiento</h3>
+                    <p>Startups, Proyectos innovadores, Transferencia tecnológica.</p>
+                </article>
+                <article class="zona-card">
+                    <h3>Zona 5: Impacto Social</h3>
+                    <p>Proyectos sociales, Vinculación con la sociedad, Desarrollo comunitario.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- 4. AGENDA DEL EVENTO -->
+        <!-- (Persona 3: Encargada de maquetar esta sección) -->
+        <section id="agenda" class="seccion-general">
+            <h2>Agenda Resumida</h2>
+            <div class="agenda-container">
+                <div class="dia-agenda">
+                    <h3>Día 1</h3>
+                    <ul>
+                        <li>Inauguración oficial</li>
+                        <li>Recorrido institucional</li>
+                        <li>Apertura de stands</li>
+                        <li>Networking y Exposición tecnológica</li>
+                    </ul>
+                </div>
+                <div class="dia-agenda">
+                    <h3>Día 2</h3>
+                    <ul>
+                        <li>Foro estratégico</li>
+                        <li>Firma de convenios</li>
+                        <li>Concurso de drones</li>
+                        <li>Matchmaking y Clausura institucional</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. SPEAKERS (Opcional según requerimientos) -->
+        <section id="speakers" class="seccion-general fondo-alterno">
+            <h2>Speakers Destacados</h2>
+            <p>Conoce a los expertos en innovación, tecnología y defensa que nos acompañarán.</p>
+            <!-- Aquí Persona 3 puede agregar fotos/nombres de expositores en una cuadrícula -->
+        </section>
+
+        <!-- 6. REGISTRO (Formulario HTML puro) -->
+        <!-- (Persona 3: Maquetar este formulario cumpliendo el requisito de "Formularios HTML") -->
+        <section id="registro" class="seccion-general">
+            <h2>Regístrate al Evento</h2>
+            <form action="#" method="POST" class="formulario-registro">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="perfil">Perfil:</label>
+                    <select id="perfil" name="perfil" required>
+                        <option value="">Seleccione una opción</option>
+                        <option value="estudiante">Estudiante Universitario</option>
+                        <option value="docente">Docente / Investigador</option>
+                        <option value="empresa">Empresa Tecnológica</option>
+                        <option value="fuerzas-armadas">Fuerzas Armadas</option>
+                        <option value="otro">Público General</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-cta btn-submit">Enviar Registro</button>
+            </form>
+        </section>
+
     </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h4>ESPE TECH 104</h4>
+                <p>Innovación tecnológica al servicio de la seguridad y defensa del país</p>
+            </div>
+            <div class="footer-patrocinadores">
+                <h4>Organizan y Patrocinan</h4>
+                <p>Universidad de las Fuerzas Armadas - ESPE</p>
+                <!-- Aquí Persona 3 puede añadir logos de empresas e instituciones -->
+            </div>
+            <div class="footer-contacto">
+                <h4>Contacto</h4>
+                <p>Email: evento@espe.edu.ec</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ESPE. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
