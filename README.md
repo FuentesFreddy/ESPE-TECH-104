@@ -27,5 +27,5 @@ Landing page moderna y responsiva para promocionar el evento "ESPE TECH 104: Inn
 
 ## 🐳 Imagen en Docker Hub
 - **URL de la imagen:** https://hub.docker.com/r/usuario/espe-tech
-- **Descargar imagen:** `docker pull usuario/espe-tech:latest`
-- **Ejecutar imagen pública:** `docker run -d -p 9090:80 usuario/espe-tech:latest`
+- **Descargar imagen:** `docker pull fjfuentes1/espe-tech:latest`
+- **Ejecutar imagen pública:** `docker run -d -p 9090:80 fjfuentes1/espe-tech:latest`
