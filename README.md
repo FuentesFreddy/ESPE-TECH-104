@@ -26,6 +26,6 @@ Landing page moderna y responsiva para promocionar el evento "ESPE TECH 104: Inn
 3. Acceder al sitio: http://localhost:9090
 
 ## 🐳 Imagen en Docker Hub
-- **URL de la imagen:** https://hub.docker.com/r/usuario/espe-tech
+- **URL de la imagen:** https://hub.docker.com/r/fjfuentes1/espe-tech
 - **Descargar imagen:** `docker pull fjfuentes1/espe-tech:latest`
 - **Ejecutar imagen pública:** `docker run -d -p 9090:80 fjfuentes1/espe-tech:latest`
