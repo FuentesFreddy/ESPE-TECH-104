@@ -23,9 +23,9 @@ Landing page moderna y responsiva para promocionar el evento "ESPE TECH 104: Inn
 ## Ejecución Local
 1. Construir la imagen: `docker build -t fjfuentes1/espe-tech:latest .`
 2. Ejecutar el contenedor: `docker run -d -p 9090:80 espe-tech`
-3. Acceder al sitio: http://localhost:8080
+3. Acceder al sitio: http://localhost:9090
 
 ## 🐳 Imagen en Docker Hub
 - **URL de la imagen:** https://hub.docker.com/r/usuario/espe-tech
 - **Descargar imagen:** `docker pull usuario/espe-tech:latest`
-- **Ejecutar imagen pública:** `docker run -d -p 8080:80 usuario/espe-tech:latest`
+- **Ejecutar imagen pública:** `docker run -d -p 9090:80 usuario/espe-tech:latest`
