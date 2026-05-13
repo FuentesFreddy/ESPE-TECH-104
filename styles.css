@@ -395,3 +395,19 @@ h2.titulo-seccion {
     section { padding: 60px 5%; }
     .registro-card { padding: 30px; }
 }
+
+/*FONDO GENERAL*/
+.fondo-general {
+    position: relative;
+
+    background:
+    linear-gradient(
+        rgba(235,240,245,0.75),
+        rgba(235,240,245,0.75)
+    ),
+    url('./Imagenes/FONDO.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
