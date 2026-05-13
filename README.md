@@ -4,9 +4,9 @@
 Landing page moderna y responsiva para promocionar el evento "ESPE TECH 104: Innovación tecnológica al servicio de la seguridad y defensa del país".
 
 ## Integrantes
-- Persona 1
-- Persona 2
-- Persona 3
+- Lennon Arias
+- Kenai Ramirez
+- Freddy Fuentes
 
 ## Tecnologías y Herramientas
 - HTML5 Semántico
@@ -21,7 +21,7 @@ Landing page moderna y responsiva para promocionar el evento "ESPE TECH 104: Inn
 - `Dockerfile` y `.dockerignore`: Configuración de despliegue.
 
 ## Ejecución Local
-1. Construir la imagen: `docker build -t espe-tech .`
+1. Construir la imagen: `docker build -t fjfuentes1/espe-tech:latest .`
 2. Ejecutar el contenedor: `docker run -d -p 8080:80 espe-tech`
 3. Acceder al sitio: http://localhost:8080
 
